@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links-->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+<header id="headerId">
+  <h6>Weather Dashboard</h6>
+</header>
+<body>
+  <!--main-->
+  <div class="mainContainer">
+    <div class="row">
+      <!--City Search Section-->
+      <div id="search-section">
+        <div class="allCards">
+          <h1>Search For a City:</h1>
+          <input type="search" placeholder="Enter city name" class="main-search-btn" />
+          <button class="main-search-btn-class" type="submit">Search
+          </button>
+            <div class="cityList"></div>
+        </div>
+      </div>
+
+      <!--Weather Column Container-->
+      <div class="firstCardDiv">
+        <div class="row">
+          <div class="city-card">
+            <div class="card-body" id="oneDay">
+              <p class="currentDate"></p>
+              <p class="city"></p>
+              <p class="wind"></p>
+              <p class="temperature"></p>
+              <p class="humidity"></p>
+            </div>
+          </div>
+        </div>
+
+        <!--says 5 day forecast-->
+        <div class="forecastSection">
+          <h5 id="fiveDayForecast"> 5 day forecast</h5>
+        </div>
+
+        <!--5 day days cards-->
+        <div class="row" id="fiveDaysDisplay">
+  
+          <!-- <div class="card">
+            <div class="cardBody">
+              <p class="dayOneIcon"></p>
+              <p class="dayOneDate"></p>
+              <p class="dayOneHumidity"></p>
+              <p class="dayOneTemperature"></p>
+              <p class="dayOneWind"></p>
+            </div>
+          </div>
+
+     
+          <div class="card">
+            <div class="cardBody">
+              <p class="dayTwoIcon"></p>
+              <p class="dayTwoDate"></p>
+              <p class="dayTwoHumidity"></p>
+              <p class="dayTwoTemperature"></p>
+              <p class="dayOneWind"></p>
+            </div>
+          </div>
+       
+          <div class="card">
+            <div class="cardBody">
+              <p class="dayThreeIcon"></p>
+              <p class="dayThreeDate"></p>
+              <p class="dayThreeHumidity"></p>
+              <p class="dayThreeTemperature"></p>
+              <p class="dayOneWind"></p>
+            </div>
+          </div>
+ 
+          <div class="card">
+            <div class="cardBody">
+              <p class="dayFourIcon"></p>
+              <p class="dayFourDate"></p>
+              <p class="dayFourHumidity"></p>
+              <p class="dayFourTemperature"></p>
+              <p class="dayOneWind"></p>
+            </div>
+          </div>
+       
+          <div class="card">
+            <div class="cardBody">
+              <p class="dayFiveIcon"></p>
+              <p class="dayFiveDate"></p>
+              <p class="dayFiveHumidity"></p>
+              <p class="dayFiveTemperature"></p>
+              <p class="dayOneWind"></p>
+            </div>
+          </div>
+          </div> -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

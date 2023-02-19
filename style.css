@@ -1,0 +1,27 @@
+ .forecastSection {
+    padding: 60px;
+    text-align: right;
+    background: #436291;
+    display: inline-flex;
+}
+
+.row {
+
+}
+
+#fiveDayForecast {
+    font-size: 50px;
+
+}
+
+#headerId {
+    padding: 60px;
+    text-align: right;
+    background: #436291;
+    color: white;
+    font-size: 60px;
+}
+
+
+
+
