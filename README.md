@@ -47,6 +47,6 @@ https://22slore.github.io/myVeryCoolWeatherDashboard/
 
 ## Screenshots
 
-![Alt text](relative%20"C:\Users\Spenc\Desktop\weathersnip.JPG"?raw=true "Title")
+![Alt text](relative%20C:\Users\Spenc\Desktop\weathersnip.JPG?raw=true "Title")
 
 
