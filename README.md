@@ -46,6 +46,6 @@ N/A
 
 ## Screenshots
 
-![alt text](https://github.com/[22Slore]/[myVeryCoolWeatherDashboard]/blob/[main]/image.jpg?raw=true)
+![alt text](https://github.com/[22Slore]/[myVeryCoolWeatherDashboard]/blob/[main]/image.jpg?raw=false)
 
 
