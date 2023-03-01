@@ -43,9 +43,10 @@ N/A
 
 ## Link to Deployed Site
 
+https://22slore.github.io/myVeryCoolWeatherDashboard/
 
 ## Screenshots
 
-![alt text](https://github.com/[22Slore]/[myVeryCoolWeatherDashboard]/blob/[main]/image.jpg?raw=false)
+
 
 
