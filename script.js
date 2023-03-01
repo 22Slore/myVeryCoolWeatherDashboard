@@ -32,10 +32,15 @@ function runSearch() {
 function displayOneDay(data) {
     const oneDaycontainer = document.getElementById("oneDay")
     oneDaycontainer.innerHTML = `
+    <p>Date:</p>
     <p class="currentDate">${data.dt}</p>
+    <p>City Name:</p>
     <p class="city">${data.name}</p>
+    <p>Wind Speed (mph):</p>
     <p class="wind">${data.wind.speed}</p>
+    <p>Temperature (fahrenheit):</p>
     <p class="temperature">${data.main.temp}</p>
+    <p>Humidity:</p>
     <p class="humidity">${data.main.humidity}</p>
     `
 
@@ -49,10 +54,15 @@ function displayFiveDays(data) {
             let icon = `<img src="http://openweathermap.org/img/wn/${data[i].weather[0].icon}@2x.png">`;
             html += `<div class="card">
             <div class="cardBody">
+                
               <p class="dayOneIcon">${icon}</p>
+              <p>Date:</p>
               <p class="dayOneDate">${new Date(data[i].dt_txt)}</p>
+              <p>Humidity:</p>
               <p class="dayOneHumidity">${data[i].main.humidity}</p>
+              <p>Temperature (fahrenheit):</p>
               <p class="dayOneTemperature">${data[i].main.temp}</p>
+              <p>Wind Speed (mph):</p>
               <p class="dayOneWind">${data[i].wind.speed}</p>
             </div>
           </div>`
