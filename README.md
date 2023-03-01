@@ -46,6 +46,6 @@ N/A
 
 ## Screenshots
 
-![alt text](file:///C:/Users/Spenc/Desktop/weathersnip.JPG)
+![alt text](https://github.com/[22Slore]/[myVeryCoolWeatherDashboard]/blob/[main]/image.jpg?raw=true)
 
 
